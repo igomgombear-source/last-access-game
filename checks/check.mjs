@@ -38,3 +38,5 @@ for(const [claim,evidence,read,ready,expected] of cases)assert.equal(rules.asses
 assert(addon.includes("V13previousHandle({act:'b9-verify', id:'BP5'})"));
 assert(addon.includes("state.bpuzzle !== 'BP5' || B9DONE('BP5')"));
 console.log(JSON.stringify({preservedFiles:Object.keys(baseline).length,manifestFiles:Object.keys(manifest.hashes).length,decisionCases:cases.length,localGameExecuted:false,httpsGameplay:'pending'},null,2));
+
+const release=spawnSync(process.execPath,[path.join(root,"release.mjs")],{encoding:"utf8"});assert.equal(release.status,0,release.stderr);console.log(release.stdout);
