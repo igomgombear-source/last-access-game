@@ -1,9 +1,9 @@
 {
-  "version": "13.0.0-alpha.1",
-  "checks": 108,
-  "media": 16,
+  "version": "13.1.0",
+  "checks": 119,
+  "media": 18,
   "puzzles": 16,
-  "files": 29,
+  "files": 37,
   "gameExecutedLocally": false,
   "sourceUrl": "https://fascinating-marshmallow-fa6bf2.netlify.app/",
   "hashes": {
@@ -15,9 +15,15 @@
     "favicon.svg": "d7fffe1d365bf6158a82fbdefbf69b4a28ccfd72a0342302c12813c6e53ad17a",
     "finish.js": "a9f96ddb760d7eb3eceee159428d8f8488c2fa5a07398b84121ae36c7bed1193",
     "game.js": "22d3880785e3eccfb39cb2c102dbe4c1cb17b57efb16792a398fc0bca28d81d8",
-    "index.html": "af749d1a81002718e14c2d545e58b3e4b2bd50ac3a40d17c1187bc8ec6e9fcad",
+    "index.html": "5f5d0b462510353f001dbf925e7db06c0d7c3d18120f90c0ab198f48a9fe79b4",
+    "investigation-release.css": "3f82652ba4132d9dc5ec81f85136353b42ec8eafd5b826f844d69d7848ee1001",
+    "investigation-release.js": "ed840dce8f7f04ddaeceb87cfe5ea93552ee27c338c2e768d723bb17b5ff6966",
     "netlify.toml": "96fffd899af349d3bd850c79c89581aad9e30e2872c563f1574e2ac5ac1b7a33",
+    "phone-release.css": "da147e3e485c62c93f242e80c1f3412752c635363d346e7930fbbc634eb17324",
+    "phone-release.js": "c53faecbf5b8c60eafaac616b0dbf85b6e51750f5aed339c391462c7096388c5",
     "polish.css": "d4e82f06c8a4afe88e4267f7e0ec2848e344e145c280e1f4165fe75899bc3cc5",
+    "story-release.css": "d207f8d417d0db488df18ec582853348d098670957daee5399b70a5331bd5143",
+    "story-release.js": "3fbbebca7e543b6382a8e516bf7952da3e0c11466cd45724437891b6cdb485ed",
     "title-v12.js": "b085cce7e55770d74a8ab7b1c7cf3f78ba3b7c64946eec5e2ee921773b0aca4a",
     "_headers": "903d404f6fdb4bea0c2e2b74e816e5abef55f84f8dc720ca970cdf2beb1c6a59",
     "assets/1c3bdfbbda7b.webp": "9411922a8ccc52eaec9f97e26f0bada40b2a2c1fa919bf34ac66e157c9547428",
@@ -35,6 +41,8 @@
     "assets/a98fbb40321d.webp": "825e6692599f4b1de21f6ca26a405282b5f5d81dbb213c819eca942875b844fb",
     "assets/c6e0c831b199.webp": "1922ca640de4238fe2ebbe9813395fe847d16a6c8e335c7b40ef126c0df631fa",
     "assets/f68bf5b41b98.webp": "6b278f5bb1950ed0fa9a69b302b5b1645e65fbb2c0dbf780a7115e832dc0171d",
-    "assets/fbf4e9816317.webp": "7340a3e279fc3294b2f53748c8e7a3461ed2256fafc76d164146f47ecdb495d6"
+    "assets/fbf4e9816317.webp": "7340a3e279fc3294b2f53748c8e7a3461ed2256fafc76d164146f47ecdb495d6",
+    "assets/music-room-release.jpg": "3001e1a661e665bbf19b2fa15407196d2c8e7554f036893d8507e631dd4de372",
+    "assets/rehearsal-guide.wav": "a57f52ef1b25dc287d1c2c74dae5cdabf8c2c974312306e0cb9c4313fcfc349b"
   }
 }
