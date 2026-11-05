@@ -1,0 +1,10 @@
+{
+  "version": "13.0.0-alpha.1",
+  "scope": "BP5 evidence confrontation only; original story unchanged",
+  "staticChecks": 108,
+  "preservedBaselineFiles": 26,
+  "decisionTests": 11,
+  "httpsGameplay": "pending",
+  "deployment": "Source package prepared for GitHub; HTTPS deployment pending",
+  "repositoryVisibility": "public"
+}
