@@ -4,7 +4,18 @@
   "staticChecks": 108,
   "preservedBaselineFiles": 26,
   "decisionTests": 11,
-  "httpsGameplay": "pending",
-  "deployment": "Source package prepared for GitHub; HTTPS deployment pending",
-  "repositoryVisibility": "public"
+  "httpsGameplay": "Initial flow passed; full regression pending",
+  "deployment": "GitHub Pages deployed successfully",
+  "repositoryVisibility": "public",
+  "gameUrl": "https://igomgombear-source.github.io/last-access-game/",
+  "deploymentRun": "https://github.com/igomgombear-source/last-access-game/actions/runs/42021234315",
+  "smokeTest": {
+    "viewport": "390x844",
+    "title": "passed",
+    "prologue": "12/12 passed",
+    "arrival": "3/3 passed",
+    "home": "passed",
+    "capturedConsoleErrors": 0,
+    "capturedConsoleWarnings": 0
+  }
 }

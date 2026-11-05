@@ -2,7 +2,11 @@
 
 마지막 접속 v13 · 첫 구현본
 
-공개 GitHub 저장소에서 관리하는 프로젝트입니다. HTTPS 전체 플레이 검증은 아직 완료하지 않았습니다.
+공개 GitHub 저장소에서 관리하는 프로젝트입니다.
+
+게임 실행: https://igomgombear-source.github.io/last-access-game/
+
+GitHub Pages 배포와 초기 실행 검사를 완료했습니다. 390×844 화면에서 타이틀, 프롤로그 12개 대화, 조사 시작 3개 장면과 휴대폰 홈 진입을 확인했고, 확보한 콘솔 오류·경고는 빈 목록이었습니다. 엔딩까지의 전체 회귀 플레이 검증은 아직 완료하지 않았습니다.
 
 ## 변경 범위
 
@@ -34,7 +38,7 @@ Netlify에서 GitHub Pages로 주소가 바뀌면 브라우저 저장은 자동�
 
 공식 안내: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 
-## HTTPS 회귀 검사 · 모두 미실시
+## HTTPS 회귀 검사 · 초기 진행 확인, 나머지 미완료
 
 - 초기 로딩, 모든 자산 응답, 콘솔 오류
 - 프롤로그, 건너뛰기, A 필수 7개와 선택 3개, 암호 오답·정답
