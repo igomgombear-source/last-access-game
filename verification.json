@@ -1,21 +1,32 @@
 {
-  "version": "13.0.0-alpha.1",
-  "scope": "BP5 evidence confrontation only; original story unchanged",
-  "staticChecks": 108,
-  "preservedBaselineFiles": 26,
-  "decisionTests": 11,
-  "httpsGameplay": "Initial flow passed; full regression pending",
-  "deployment": "GitHub Pages deployed successfully",
-  "repositoryVisibility": "public",
-  "gameUrl": "https://igomgombear-source.github.io/last-access-game/",
-  "deploymentRun": "https://github.com/igomgombear-source/last-access-game/actions/runs/42021234315",
-  "smokeTest": {
-    "viewport": "390x844",
-    "title": "passed",
-    "prologue": "12/12 passed",
-    "arrival": "3/3 passed",
-    "home": "passed",
-    "capturedConsoleErrors": 0,
-    "capturedConsoleWarnings": 0
-  }
+  "version": "13.1.1",
+  "reviewDate": "2026-11-06",
+  "liveUrl": "https://igomgombear-source.github.io/last-access-game/",
+  "sourceCommit": "2ee8d4e58f9fad37af3bf5a2f268f5af36fd5773",
+  "baselineGame": "v13 actual HTTPS TRUE END, A7+3 B6",
+  "staticChecks": 119,
+  "ruleChecks": 28,
+  "priorBP5RuleChecks": 11,
+  "baselineFilesPreserved": 28,
+  "saveFieldsPreserved": 7,
+  "httpsRegression": {
+    "fullMainRouteVersion": "13.1.0",
+    "result": "TRUE END reached; A7 required +3 optional, B6, final reconstruction",
+    "includesManualSaveRestoration": true,
+    "patchSmokeVersion": "13.1.1",
+    "patchSmokeResult": "continued solved save; completed objective text; no collected error or warning logs",
+    "checks": ["opening with audio and silent alternative", "wrong answers and retry", "BP5 photo and witness accepted", "manual drafts and old v13 save recovery", "automatic reload and continue", "source reread and archive", "final order and evidence validation", "new game cancel/reset with manual save retained"],
+    "actualViewports": ["390x844", "361x740", "431x932", "844x390"],
+    "collectedGameConsoleErrorsAndWarnings": [],
+    "limits": ["not all branches", "no physical iOS or Android devices", "no first-time player study", "commercial success not established"]
+  },
+  "deployment": {
+    "status": "success",
+    "workflowRun": "https://github.com/igomgombear-source/last-access-game/actions/runs/42164063968",
+    "sourceCheckRun": "https://github.com/igomgombear-source/last-access-game/actions/runs/42163930182",
+    "httpResourcesChecked": 38,
+    "http200AndMatchingLocalSHA256": 38,
+    "details": "docs/https-response-check.json"
+  },
+  "gameExecutedLocally": false
 }
