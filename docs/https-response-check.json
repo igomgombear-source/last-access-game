@@ -1,0 +1,352 @@
+{
+  "at": "2026-11-06T04:46:17.418Z",
+  "base": "https://igomgombear-source.github.io/last-access-game/",
+  "version": "13.1.1",
+  "gameExecutedLocally": false,
+  "total": 38,
+  "passed": 38,
+  "results": [
+    {
+      "file": "_headers",
+      "status": 200,
+      "bytes": 203,
+      "sha256": "903d404f6fdb4bea0c2e2b74e816e5abef55f84f8dc720ca970cdf2beb1c6a59",
+      "expected": "903d404f6fdb4bea0c2e2b74e816e5abef55f84f8dc720ca970cdf2beb1c6a59",
+      "match": true,
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "assets/1c3bdfbbda7b.webp",
+      "status": 200,
+      "bytes": 11172,
+      "sha256": "9411922a8ccc52eaec9f97e26f0bada40b2a2c1fa919bf34ac66e157c9547428",
+      "expected": "9411922a8ccc52eaec9f97e26f0bada40b2a2c1fa919bf34ac66e157c9547428",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/1c9142ad6265.webp",
+      "status": 200,
+      "bytes": 9536,
+      "sha256": "4e6cca02e0ef85405bf244be5ae68ac55075585a7a8c1f1e00494cbe5454c4b2",
+      "expected": "4e6cca02e0ef85405bf244be5ae68ac55075585a7a8c1f1e00494cbe5454c4b2",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/252c3df884eb.webp",
+      "status": 200,
+      "bytes": 14852,
+      "sha256": "da405b249d460e8857feb046666a4dfeeec8b665f137568e4f453869c1b5335d",
+      "expected": "da405b249d460e8857feb046666a4dfeeec8b665f137568e4f453869c1b5335d",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/26ced6cf89b3.webp",
+      "status": 200,
+      "bytes": 4652,
+      "sha256": "165545c80099a2dcc69ca14205bd6df548b7e3ddbd47cb8cfd93cfd4f61e120a",
+      "expected": "165545c80099a2dcc69ca14205bd6df548b7e3ddbd47cb8cfd93cfd4f61e120a",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/33ad7ab954ac.webp",
+      "status": 200,
+      "bytes": 12244,
+      "sha256": "635d20b0039061ee8ebae6e10f7b2247906d0a1af4134b8da0d5b63056352b78",
+      "expected": "635d20b0039061ee8ebae6e10f7b2247906d0a1af4134b8da0d5b63056352b78",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/396020d22849.webp",
+      "status": 200,
+      "bytes": 12800,
+      "sha256": "de4c7d665d60e9cd446716365e87ef6e47bb3855b0e17f79163bab1ade10041f",
+      "expected": "de4c7d665d60e9cd446716365e87ef6e47bb3855b0e17f79163bab1ade10041f",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/3e76ea1c4a1b.webp",
+      "status": 200,
+      "bytes": 20578,
+      "sha256": "531102e7eda944726c3ae0e484f4d691d979279dcf203e00cc76679c4d4f1f9f",
+      "expected": "531102e7eda944726c3ae0e484f4d691d979279dcf203e00cc76679c4d4f1f9f",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/58509f08a8d9.webp",
+      "status": 200,
+      "bytes": 8194,
+      "sha256": "d7d73c2e3b55fd61819d7ff90bf443be55fc8aedd522d5bb1ecdabb4898a28f7",
+      "expected": "d7d73c2e3b55fd61819d7ff90bf443be55fc8aedd522d5bb1ecdabb4898a28f7",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/59a05aa107e3.webp",
+      "status": 200,
+      "bytes": 115942,
+      "sha256": "4ebb05162b4be729f36593bdb724d0324906117f94535af954a5f13f4a9dcb5b",
+      "expected": "4ebb05162b4be729f36593bdb724d0324906117f94535af954a5f13f4a9dcb5b",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/77d14e44a0c5.webp",
+      "status": 200,
+      "bytes": 5642,
+      "sha256": "54c081ba974a90ac9a44f4b48b9a8ed93c8ca67311173a522af57acabce54290",
+      "expected": "54c081ba974a90ac9a44f4b48b9a8ed93c8ca67311173a522af57acabce54290",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/7dec2f21b8a0.webp",
+      "status": 200,
+      "bytes": 12292,
+      "sha256": "1e3fe7da02c48bdce07d5c07a7f68574a0d4c31f29db76f0ed85e9504692e6f7",
+      "expected": "1e3fe7da02c48bdce07d5c07a7f68574a0d4c31f29db76f0ed85e9504692e6f7",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/97ba84796284.webp",
+      "status": 200,
+      "bytes": 9868,
+      "sha256": "2a6c4feb93198b74d7834412c9fd5b1ed293a2ab0b797302d647a214ad0b3cd5",
+      "expected": "2a6c4feb93198b74d7834412c9fd5b1ed293a2ab0b797302d647a214ad0b3cd5",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/a98fbb40321d.webp",
+      "status": 200,
+      "bytes": 8714,
+      "sha256": "825e6692599f4b1de21f6ca26a405282b5f5d81dbb213c819eca942875b844fb",
+      "expected": "825e6692599f4b1de21f6ca26a405282b5f5d81dbb213c819eca942875b844fb",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/c6e0c831b199.webp",
+      "status": 200,
+      "bytes": 7494,
+      "sha256": "1922ca640de4238fe2ebbe9813395fe847d16a6c8e335c7b40ef126c0df631fa",
+      "expected": "1922ca640de4238fe2ebbe9813395fe847d16a6c8e335c7b40ef126c0df631fa",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/f68bf5b41b98.webp",
+      "status": 200,
+      "bytes": 8896,
+      "sha256": "6b278f5bb1950ed0fa9a69b302b5b1645e65fbb2c0dbf780a7115e832dc0171d",
+      "expected": "6b278f5bb1950ed0fa9a69b302b5b1645e65fbb2c0dbf780a7115e832dc0171d",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/fbf4e9816317.webp",
+      "status": 200,
+      "bytes": 10370,
+      "sha256": "7340a3e279fc3294b2f53748c8e7a3461ed2256fafc76d164146f47ecdb495d6",
+      "expected": "7340a3e279fc3294b2f53748c8e7a3461ed2256fafc76d164146f47ecdb495d6",
+      "match": true,
+      "contentType": "image/webp"
+    },
+    {
+      "file": "assets/music-room-release.jpg",
+      "status": 200,
+      "bytes": 301907,
+      "sha256": "3001e1a661e665bbf19b2fa15407196d2c8e7554f036893d8507e631dd4de372",
+      "expected": "3001e1a661e665bbf19b2fa15407196d2c8e7554f036893d8507e631dd4de372",
+      "match": true,
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "assets/rehearsal-guide.wav",
+      "status": 200,
+      "bytes": 247002,
+      "sha256": "a57f52ef1b25dc287d1c2c74dae5cdabf8c2c974312306e0cb9c4313fcfc349b",
+      "expected": "a57f52ef1b25dc287d1c2c74dae5cdabf8c2c974312306e0cb9c4313fcfc349b",
+      "match": true,
+      "contentType": "audio/wav"
+    },
+    {
+      "file": "base.css",
+      "status": 200,
+      "bytes": 35293,
+      "sha256": "4e18c742a962331ceb7af4b008c4f967ad8403b292fa21becc29cde7925f9da5",
+      "expected": "4e18c742a962331ceb7af4b008c4f967ad8403b292fa21becc29cde7925f9da5",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "chapter-b.css",
+      "status": 200,
+      "bytes": 4063,
+      "sha256": "890f011680f46465d036692faaa0ccd0c9083f7591bc4825958956fa3dc1322e",
+      "expected": "890f011680f46465d036692faaa0ccd0c9083f7591bc4825958956fa3dc1322e",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "chapter-b.js",
+      "status": 200,
+      "bytes": 35993,
+      "sha256": "fd8b478b17d50c28579b54cf448ebe097d3635c3e4d931e246430194ae0464cb",
+      "expected": "fd8b478b17d50c28579b54cf448ebe097d3635c3e4d931e246430194ae0464cb",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "deduction-v13.css",
+      "status": 200,
+      "bytes": 776,
+      "sha256": "aab1e4f4c84e72b41aa4a926a896a75fbd66455eb68fd6e7c96463f274d268ab",
+      "expected": "aab1e4f4c84e72b41aa4a926a896a75fbd66455eb68fd6e7c96463f274d268ab",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "deduction-v13.js",
+      "status": 200,
+      "bytes": 5068,
+      "sha256": "b04477217b327a2efef7b6e047ff34d3b4a9a7afb0a56aa8541bf09e46360848",
+      "expected": "b04477217b327a2efef7b6e047ff34d3b4a9a7afb0a56aa8541bf09e46360848",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "favicon.svg",
+      "status": 200,
+      "bytes": 348,
+      "sha256": "d7fffe1d365bf6158a82fbdefbf69b4a28ccfd72a0342302c12813c6e53ad17a",
+      "expected": "d7fffe1d365bf6158a82fbdefbf69b4a28ccfd72a0342302c12813c6e53ad17a",
+      "match": true,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "file": "finish.js",
+      "status": 200,
+      "bytes": 37113,
+      "sha256": "a9f96ddb760d7eb3eceee159428d8f8488c2fa5a07398b84121ae36c7bed1193",
+      "expected": "a9f96ddb760d7eb3eceee159428d8f8488c2fa5a07398b84121ae36c7bed1193",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "game.js",
+      "status": 200,
+      "bytes": 61398,
+      "sha256": "22d3880785e3eccfb39cb2c102dbe4c1cb17b57efb16792a398fc0bca28d81d8",
+      "expected": "22d3880785e3eccfb39cb2c102dbe4c1cb17b57efb16792a398fc0bca28d81d8",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 2643,
+      "sha256": "87e4ce4f0c06365302d90dc2beeddfe3f401e1d26b14180fd6c22d07dcba31b8",
+      "expected": "87e4ce4f0c06365302d90dc2beeddfe3f401e1d26b14180fd6c22d07dcba31b8",
+      "match": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "file": "investigation-release.css",
+      "status": 200,
+      "bytes": 1985,
+      "sha256": "3f82652ba4132d9dc5ec81f85136353b42ec8eafd5b826f844d69d7848ee1001",
+      "expected": "3f82652ba4132d9dc5ec81f85136353b42ec8eafd5b826f844d69d7848ee1001",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "investigation-release.js",
+      "status": 200,
+      "bytes": 16098,
+      "sha256": "ed840dce8f7f04ddaeceb87cfe5ea93552ee27c338c2e768d723bb17b5ff6966",
+      "expected": "ed840dce8f7f04ddaeceb87cfe5ea93552ee27c338c2e768d723bb17b5ff6966",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "netlify.toml",
+      "status": 200,
+      "bytes": 24,
+      "sha256": "96fffd899af349d3bd850c79c89581aad9e30e2872c563f1574e2ac5ac1b7a33",
+      "expected": "96fffd899af349d3bd850c79c89581aad9e30e2872c563f1574e2ac5ac1b7a33",
+      "match": true,
+      "contentType": "application/toml"
+    },
+    {
+      "file": "phone-release.css",
+      "status": 200,
+      "bytes": 16521,
+      "sha256": "da147e3e485c62c93f242e80c1f3412752c635363d346e7930fbbc634eb17324",
+      "expected": "da147e3e485c62c93f242e80c1f3412752c635363d346e7930fbbc634eb17324",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "phone-release.js",
+      "status": 200,
+      "bytes": 12452,
+      "sha256": "c53faecbf5b8c60eafaac616b0dbf85b6e51750f5aed339c391462c7096388c5",
+      "expected": "c53faecbf5b8c60eafaac616b0dbf85b6e51750f5aed339c391462c7096388c5",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "polish.css",
+      "status": 200,
+      "bytes": 12014,
+      "sha256": "d4e82f06c8a4afe88e4267f7e0ec2848e344e145c280e1f4165fe75899bc3cc5",
+      "expected": "d4e82f06c8a4afe88e4267f7e0ec2848e344e145c280e1f4165fe75899bc3cc5",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "story-release.css",
+      "status": 200,
+      "bytes": 7973,
+      "sha256": "d207f8d417d0db488df18ec582853348d098670957daee5399b70a5331bd5143",
+      "expected": "d207f8d417d0db488df18ec582853348d098670957daee5399b70a5331bd5143",
+      "match": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "file": "story-release.js",
+      "status": 200,
+      "bytes": 21490,
+      "sha256": "3283e5c0b32c09f6c245f3f9c9f091d8bdefd08120019a4cb0329e7a94a18f6e",
+      "expected": "3283e5c0b32c09f6c245f3f9c9f091d8bdefd08120019a4cb0329e7a94a18f6e",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "title-v12.js",
+      "status": 200,
+      "bytes": 8274,
+      "sha256": "b085cce7e55770d74a8ab7b1c7cf3f78ba3b7c64946eec5e2ee921773b0aca4a",
+      "expected": "b085cce7e55770d74a8ab7b1c7cf3f78ba3b7c64946eec5e2ee921773b0aca4a",
+      "match": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "version.json",
+      "status": 200,
+      "bytes": 3721,
+      "sha256": "bb79be417e9331bd3aded8cce3a51f60d652b2d4d3fd87501b32d1cfb30944ea",
+      "expected": "bb79be417e9331bd3aded8cce3a51f60d652b2d4d3fd87501b32d1cfb30944ea",
+      "match": true,
+      "contentType": "application/json; charset=utf-8"
+    }
+  ]
+}
