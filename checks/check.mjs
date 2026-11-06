@@ -9,6 +9,8 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const app=path.join(root,'../site');
 const baseline=JSON.parse(fs.readFileSync(path.join(root,'v12-preservation.json'),'utf8'));
 for(const [name,hash] of Object.entries(baseline)) assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(app,name))).digest('hex'),hash,name);
+const priorDesign=JSON.parse(fs.readFileSync(path.join(root,'v13.1-preservation.json'),'utf8'));
+for(const [name,hash] of Object.entries(priorDesign)) assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(app,name))).digest('hex'),hash,name);
 const manifest=JSON.parse(fs.readFileSync(path.join(app,'version.json'),'utf8'));
 for(const [name,hash] of Object.entries(manifest.hashes)) assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(app,name))).digest('hex'),hash,name);
 const html=fs.readFileSync(path.join(app,'index.html'),'utf8');
@@ -37,6 +39,6 @@ const cases=[
 for(const [claim,evidence,read,ready,expected] of cases)assert.equal(rules.assess(claim,evidence,read,ready),expected);
 assert(addon.includes("V13previousHandle({act:'b9-verify', id:'BP5'})"));
 assert(addon.includes("state.bpuzzle !== 'BP5' || B9DONE('BP5')"));
-console.log(JSON.stringify({preservedFiles:Object.keys(baseline).length,manifestFiles:Object.keys(manifest.hashes).length,decisionCases:cases.length,localGameExecuted:false,httpsGameplay:'reported separately in verification.json'},null,2));
+console.log(JSON.stringify({preservedFiles:Object.keys(baseline).length,preservedV13_1Files:Object.keys(priorDesign).length,manifestFiles:Object.keys(manifest.hashes).length,decisionCases:cases.length,localGameExecuted:false,httpsGameplay:'reported separately in verification.json'},null,2));
 
 const release=spawnSync(process.execPath,[path.join(root,"release.mjs")],{encoding:"utf8"});assert.equal(release.status,0,release.stderr);console.log(release.stdout);
