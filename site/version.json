@@ -1,5 +1,5 @@
 {
-  "version": "13.2.0",
+  "version": "13.2.1",
   "checks": 122,
   "media": 18,
   "puzzles": 16,
@@ -7,8 +7,8 @@
   "gameExecutedLocally": false,
   "sourceUrl": "https://igomgombear-source.github.io/last-access-game/",
   "hashes": {
-    "art-direction.css": "ee01f4915397e03a276d7eaeea9c0a291e33711e6af5f9c50732dfe435249316",
-    "art-direction.js": "222074e2f908215f5e28ea998c9892a53ca9c3cd2b1e063572bf142e4fc2697a",
+    "art-direction.css": "15a1dfaf8d8c4c0d0e3d00736fc8ef044ab2552d8e0a87a0e5696d17d95a3527",
+    "art-direction.js": "f221af6cc083cf62073730a399621ff3e608317735cf0c45a2e188727409e6a6",
     "base.css": "4e18c742a962331ceb7af4b008c4f967ad8403b292fa21becc29cde7925f9da5",
     "chapter-b.css": "890f011680f46465d036692faaa0ccd0c9083f7591bc4825958956fa3dc1322e",
     "chapter-b.js": "fd8b478b17d50c28579b54cf448ebe097d3635c3e4d931e246430194ae0464cb",
@@ -17,7 +17,7 @@
     "favicon.svg": "d7fffe1d365bf6158a82fbdefbf69b4a28ccfd72a0342302c12813c6e53ad17a",
     "finish.js": "a9f96ddb760d7eb3eceee159428d8f8488c2fa5a07398b84121ae36c7bed1193",
     "game.js": "22d3880785e3eccfb39cb2c102dbe4c1cb17b57efb16792a398fc0bca28d81d8",
-    "index.html": "7c64cf623af74b792b7d31365aaba64bc5b3204d369e7d1cf6d1c5a5d9d7223d",
+    "index.html": "e49fd8588d1e03f8c528333ab7da1ebe2bcb15d6f6429601addbfd6233beaabd",
     "investigation-release.css": "3f82652ba4132d9dc5ec81f85136353b42ec8eafd5b826f844d69d7848ee1001",
     "investigation-release.js": "ed840dce8f7f04ddaeceb87cfe5ea93552ee27c338c2e768d723bb17b5ff6966",
     "netlify.toml": "96fffd899af349d3bd850c79c89581aad9e30e2872c563f1574e2ac5ac1b7a33",

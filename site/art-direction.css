@@ -313,5 +313,28 @@ html.art-edition{--art-ink:#242622;--art-muted:#6c7068;--art-paper:#f5f2e9;--art
 .art-final-page>p:not(.art-section-label),.art-instruction,.art-edition .art-document-date,.art-edition .art-score-sheet>header,.art-edition .art-score-sheet>footer,.art-choice small,.art-final-review dt,.art-final-review dd,.art-final-tabs>button,.art-person-choices>button>small,.art-final-page .v7btn.light{color:#626e56}
 .art-choice small,.art-final-review dt,.art-edition .art-score-sheet>footer{font-size:10px}
 .art-edition .art-conversation-person small,.art-edition .art-chat-readonly,.art-edition .phone-app .v7chatTime,.art-edition .phone-app .v7chatday{color:#707c63}
+/* One 48px tool strip keeps the device screen available; help opens above it. */
+.art-game-tools{display:flex;align-items:center;position:relative;min-height:48px;padding:0 7px calc(0px + env(safe-area-inset-bottom));flex:none;background:#e9e8e1;border-top:1px solid #cfd2c4;z-index:5}
+.art-game-tools>.art-guidance{position:static;border:0;background:transparent;min-width:108px;flex:none}
+.art-game-tools>.art-guidance>summary{min-height:46px;font-size:10px;padding:0 11px;gap:7px}
+.art-game-tools>.art-guidance>summary .phone-icon{transform:rotate(-90deg)}
+.art-game-tools>.art-guidance[open]>summary .phone-icon{transform:rotate(90deg)}
+.art-game-tools>.art-guidance>p{position:absolute;bottom:100%;left:0;right:0;padding:15px 20px;margin:0;max-height:min(180px,35vh);overflow:auto;background:#efefe5;border:1px solid #c6ceba;box-shadow:0 -5px 16px #26312015;line-height:1.9;color:#526143}
+.art-edition .art-game-tools>.phone-game-rail{flex:1;min-width:0;min-height:48px;padding:0 3px;border:0;background:transparent;gap:4px}
+.art-edition .art-game-tools .phone-game-rail button{min-height:46px;padding:0 6px;font-size:11px}
+.art-edition .art-game-tools .art-device-owner{font-size:9px;letter-spacing:0;padding-left:5px}
+.art-edition .phone-case .phone-app-header .v7title{font-family:var(--font);font-size:15px!important;line-height:1.4;font-weight:600;letter-spacing:-.3px}
+.art-edition .phone-page-board .v7boardCard .v7btn.light,.art-edition .phone-page-b9board .b9card .v7btn.light{display:inline-flex;align-items:center;width:auto;min-height:44px;background:transparent;border:0;padding:9px 0;font-size:11px;font-weight:500;color:#69765b;text-decoration:underline;text-underline-offset:4px;margin:0}
+.art-edition .art-score-investigation>h1{font-size:24px!important;margin:8px 0 9px}
+.art-score-investigation>.art-instruction{margin-top:0;font-size:11px;line-height:1.8}
+.art-edition .art-score-comparison{gap:12px;margin:16px 0 25px}
+.art-edition .art-score-comparison .art-score-sheet{padding:12px 10px}
+.art-edition .art-score-comparison .art-score-sheet>header{padding-bottom:6px}
+.art-edition .art-score-comparison .art-score-sheet>h2{font-family:var(--font);font-size:10px;margin:8px 0 9px;text-align:left;line-height:1.5;letter-spacing:0}
+.art-edition .art-score-comparison .art-score-sheet>footer{margin-top:9px;padding-top:6px;font-size:8px}
+.art-edition .art-score-comparison .v7table th,.art-edition .art-score-comparison .v7table td{padding-top:2px;padding-bottom:2px}
+.art-edition .art-score-comparison .v7table thead th{padding-top:6px;padding-bottom:6px}
+.art-verdict-question{font-size:12px;line-height:1.9;color:#667359;margin:0 0 14px}
+.art-edition .release-notification,.art-edition .phone-app .v7bubble,.art-edition .art-choice,.art-edition .ir-purpose{word-break:keep-all;overflow-wrap:anywhere}
 html.art-edition[data-phone-text="large"] .phone-case .v7option,html.art-edition[data-phone-text="large"] .ir-source-body,html.art-edition[data-phone-text="large"] .art-choice,html.art-edition[data-phone-text="large"] .art-event-sources>button{font-size:16px}
 @media(prefers-reduced-motion:reduce){.art-edition *{scroll-behavior:auto!important}}

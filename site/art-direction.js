@@ -1,12 +1,12 @@
 'use strict';
 
 // Presentation layer. All evidence, puzzle gates and verdicts remain in the existing engine.
-const ART_VERSION='13.2.0';
+const ART_VERSION='13.2.1';
 document.documentElement.classList.add('art-edition');
 
 let ARTguideOpen=false;
 PHONErail=function(chapterB=PHONEisB(),showHome=true){
-  return `<details class="art-guidance" ${ARTguideOpen?'open':''}><summary><span>승민의 메모</span>${PHONEicon('chevron')}</summary><p>${E(RELEASEgoal())}</p></details><nav class="phone-game-rail" aria-label="게임 도구">${showHome?`<button type="button" data-act="${chapterB?'b9-nav':'nav'}" data-to="${chapterB?'b9home':'home'}">${PHONEicon('home')}<span>휴대폰</span></button>`:'<span class="art-device-owner">'+(chapterB?'이승민':'권해인')+'의 휴대폰</span>'}<button type="button" data-phone="tools">${PHONEicon('board')}<span>조사 수첩</span></button></nav>`;
+  return `<div class="art-game-tools"><details class="art-guidance" ${ARTguideOpen?'open':''}><summary><span>승민의 메모</span>${PHONEicon('chevron')}</summary><p>${E(RELEASEgoal())}</p></details><nav class="phone-game-rail" aria-label="게임 도구">${showHome?`<button type="button" data-act="${chapterB?'b9-nav':'nav'}" data-to="${chapterB?'b9home':'home'}">${PHONEicon('home')}<span>휴대폰</span></button>`:'<span class="art-device-owner">'+(chapterB?'이승민':'권해인')+'의 휴대폰</span>'}<button type="button" data-phone="tools">${PHONEicon('board')}<span>조사 수첩</span></button></nav></div>`;
 };
 document.addEventListener('toggle',event=>{if(event.target.classList?.contains('art-guidance'))ARTguideOpen=event.target.open;},true);
 
@@ -59,11 +59,11 @@ puzzle=function(){
   const p=PUZZLES.find(x=>x.id===state.puzzle);
   if(!p||p.kind!=='score'||done(p.id)||p.needed.some(id=>!seen(id))||(p.doneNeed||[]).some(id=>!done(id)))return ARTpreviousPuzzle();
   const hint=state.hints[p.id]||0;
-  return shell(p.title,'board',`<section class="art-score-investigation"><div class="art-section-label">자료 대조 · ${E(p.id)}</div><h1>두 장의 평가표</h1><p class="art-notebook-note">${E(p.question)}</p><p class="art-instruction">달라진 평가 항목을 두드려 표시하세요.</p><div class="art-score-comparison">${ARTscoreSheet(FILES.find(f=>f.id==='A15'),true)}${ARTscoreSheet(FILES.find(f=>f.id==='A16'),true)}</div><fieldset class="art-verdict"><legend>자료가 확인하는 사실</legend>${options(p.id,p.opts)}</fieldset><button type="button" class="v7btn blue" data-act="verify">비교 결과 기록</button><button type="button" class="v7btn light" data-act="hint">힌트 요청 (${hint}/3)</button>${hint?`<div class="v7darknotice">${E(p.hints[hint-1])}</div>`:''}<button type="button" class="v7btn light" data-act="nav" data-to="board">조사 수첩으로</button></section>`,{dark:true});
+  return shell(p.title,'board',`<section class="art-score-investigation"><div class="art-section-label">자료 대조 · ${E(p.id)}</div><h1>두 장의 평가표</h1><p class="art-instruction">달라진 평가 항목을 두드려 표시하세요.</p><div class="art-score-comparison">${ARTscoreSheet(FILES.find(f=>f.id==='A15'),true)}${ARTscoreSheet(FILES.find(f=>f.id==='A16'),true)}</div><fieldset class="art-verdict"><legend>자료가 확인하는 사실</legend><p class="art-verdict-question">${E(p.question)}</p>${options(p.id,p.opts)}</fieldset><button type="button" class="v7btn blue" data-act="verify">비교 결과 기록</button><button type="button" class="v7btn light" data-act="hint">힌트 요청 (${hint}/3)</button>${hint?`<div class="v7darknotice">${E(p.hints[hint-1])}</div>`:''}<button type="button" class="v7btn light" data-act="nav" data-to="board">조사 수첩으로</button></section>`,{dark:true});
 };
 
 const ARTfinalTitles=['행적','인물','경위','근거'];
-function ARTfinalIndex(){return Math.min(3,Math.max(0,Number(state.artFinalStep)||0));}
+function ARTfinalIndex(){const n=Number(state.artFinalStep);return Number.isInteger(n)?Math.min(3,Math.max(0,n)):0;}
 function ARTfinalChoice(act,value,label,selected,extra=''){
   return `<button type="button" class="art-choice ${selected?'is-selected':''}" data-act="${act}" data-value="${value}" aria-pressed="${!!selected}"><span class="art-choice-check" aria-hidden="true">${selected?'✓':''}</span><span>${E(label)}${extra}</span></button>`;
 }
