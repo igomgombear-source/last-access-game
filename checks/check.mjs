@@ -12,7 +12,7 @@ for(const [name,hash] of Object.entries(baseline)) assert.equal(crypto.createHas
 const manifest=JSON.parse(fs.readFileSync(path.join(app,'version.json'),'utf8'));
 for(const [name,hash] of Object.entries(manifest.hashes)) assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(app,name))).digest('hex'),hash,name);
 const html=fs.readFileSync(path.join(app,'index.html'),'utf8');
-const scripts=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]);
+const scripts=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1].split('?')[0]);
 for(const file of scripts){const result=spawnSync(process.execPath,['--check',path.join(app,file)],{encoding:'utf8'});assert.equal(result.status,0,result.stderr);}
 new vm.Script(scripts.map(file=>fs.readFileSync(path.join(app,file),'utf8')).join('\n'));
 const addon=fs.readFileSync(path.join(app,'deduction-v13.js'),'utf8');
