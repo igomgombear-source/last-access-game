@@ -1,7 +1,7 @@
 'use strict';
 
 // 13.1: contextual opening and original-source reading. The case and save keys are retained.
-const RELEASE_VERSION='13.1.0';
+const RELEASE_VERSION='13.1.1';
 const RELEASE_WALLPAPER='assets/music-room-release.jpg';
 V10DIALOGUE.splice(0,V10DIALOGUE.length,
   ['권해인','승민쌤, 내일 리허설 앞부분만 대신 진행해 주실 수 있어요?'],
@@ -76,6 +76,7 @@ function RELEASElock(){
 }
 function RELEASEgoal(){
   if(PHONEisB()){
+    if(state.v12CaseSolved)return '사건 기록이 완성됐다. 보관함에서 원문과 결론을 다시 살펴볼 수 있어.';
     if(!B9DONE('BP1'))return '마지막 문자와 휴대폰 전달 경로를 확인하자.';
     if(!B9DONE('BP2'))return '효은의 진술에서 두 시점의 일을 나누어 보자.';
     if(!B9DONE('BP3'))return '해인을 실제로 만난 사람의 기록을 확인하자.';
@@ -129,7 +130,7 @@ const RELEASEoldBHandle=B9handle;
 B9handle=function(d){const before=(state.bdone||[]).slice();RELEASEoldBHandle(d);const fresh=(state.bdone||[]).find(id=>!before.includes(id)&&RELEASE_REACTIONS[id]);if(fresh){state.releaseReaction=fresh;state.screen='releaseReaction';render();}};
 
 const RELEASEoldTitle=V10title;
-V10title=function(){return RELEASEoldTitle().replace(V10ART,RELEASE_WALLPAPER).replace('책상 위의 휴대폰과 17번 파란 파일, 갈색 자료 봉투','가을 아침의 학교 음악실').replace('CHAPTER A + B · v13','CHAPTER A + B · v13.1');};
+V10title=function(){return RELEASEoldTitle().replace(V10ART,RELEASE_WALLPAPER).replace('책상 위의 휴대폰과 17번 파란 파일, 갈색 자료 봉투','가을 아침의 학교 음악실').replace('CHAPTER A + B · v13','CHAPTER A + B · v13.1.1');};
 const RELEASEoldView=view;
 view=function(){
   if(!v10CoverVisible){if(state.screen==='releaseContext')return RELEASEcontext();if(state.screen==='releaseMusic')return RELEASEmusic();if(state.screen==='releaseMorning'||state.screen==='v12arrival')return RELEASEmorning();if(state.screen==='releaseLock')return RELEASElock();if(state.screen==='releaseReaction')return RELEASEreaction();}
@@ -158,6 +159,6 @@ document.addEventListener('click',event=>{
     case 'reaction-next':state.screen='b9home';render();break;
   }
 },true);
-document.title='마지막 접속 — v13.1';
+document.title='마지막 접속 — v13.1.1';
 render();
 document.documentElement.classList.remove('release-loading');
