@@ -1,0 +1,32 @@
+/* v13.3 · 승민의 정체성과 주제 사자성어. 기존 화면 구조는 바꾸지 않고 요소만 더한다. */
+
+/* 타이틀 사자성어 */
+.id14-hanja{margin:16px 0 0;padding:14px 0 12px;border-top:1px solid #bec7af;border-bottom:1px solid #bec7af}
+.id14-hanja-chars{display:flex;gap:8px;margin:0;font-family:'Noto Serif CJK KR','Noto Serif KR','Batang','AppleMyungjo',serif;font-size:clamp(46px,15vw,68px);font-weight:500;line-height:1.05;color:#2f3a28}
+.id14-hanja-chars span{opacity:0;animation:id14-ink .9s ease forwards}
+.id14-hanja-chars span:nth-child(1){animation-delay:.15s}
+.id14-hanja-chars span:nth-child(2){animation-delay:.45s}
+.id14-hanja-chars span:nth-child(3){animation-delay:.75s}
+.id14-hanja-chars span:nth-child(4){animation-delay:1.05s}
+.id14-hanja-read{margin:10px 0 0;font-size:11px;line-height:1.8;color:#5c684f}
+.id14-hanja-read b{color:#98483b;font-weight:600;letter-spacing:1px}
+@keyframes id14-ink{from{opacity:0;filter:blur(3px)}to{opacity:1;filter:none}}
+.v12-reduce-motion .id14-hanja-chars span{animation:none;opacity:1}
+@media(prefers-reduced-motion:reduce){.id14-hanja-chars span{animation:none;opacity:1}}
+@media(max-height:740px){.id14-hanja{margin-top:10px;padding:10px 0 8px}.id14-hanja-chars{font-size:clamp(38px,12vw,52px)}.id14-hanja-read{margin-top:6px}}
+@media(min-width:700px){.id14-hanja-chars{font-size:74px}.id14-hanja-read{font-size:12px}}
+
+/* 승민의 한 줄 (붉은 펜 메모) */
+.id14-thought{display:flex;gap:10px;align-items:flex-start;margin:6px 0 18px;padding:12px 14px 12px 12px;border-left:2px solid #98483b;background:#f1e9df99}
+.id14-thought-mark{flex:none;color:#98483b;font-family:'Batang','바탕','AppleMyungjo',serif;font-size:13px;line-height:1.9}
+.id14-thought p{margin:0;font-family:'Batang','바탕','AppleMyungjo',serif;font-size:14px;line-height:1.85;letter-spacing:-.3px;color:#7a3a30}
+
+/* 챕터 표지의 사자성어 */
+.id14-chap{margin-left:8px;font-family:'Noto Serif CJK KR','Noto Serif KR','Batang','AppleMyungjo',serif;letter-spacing:1px;color:#98483b}
+
+/* 추리 확정 인장 */
+.id14-seal{position:fixed;left:50%;top:42%;z-index:80;width:92px;height:92px;display:grid;grid-template-rows:1fr 1fr;place-items:center;border:4px solid #98483b;border-radius:6px;background:#f5f2e9d9;box-shadow:0 0 0 2px #f5f2e9;color:#98483b;font-family:'Noto Serif CJK KR','Noto Serif KR','Batang','AppleMyungjo',serif;font-size:34px;line-height:1;pointer-events:none;transform:translate(-50%,-50%) rotate(-7deg);animation:id14-stamp 1.6s ease forwards}
+@keyframes id14-stamp{0%{opacity:0;transform:translate(-50%,-50%) rotate(-7deg) scale(1.7)}14%{opacity:1;transform:translate(-50%,-50%) rotate(-7deg) scale(1)}78%{opacity:.95}100%{opacity:0}}
+.v12-reduce-motion~.id14-seal,.v12-reduce-motion .id14-seal{animation:id14-fade 1.2s ease forwards}
+@media(prefers-reduced-motion:reduce){.id14-seal{animation:id14-fade 1.2s ease forwards}}
+@keyframes id14-fade{0%{opacity:0}15%{opacity:1}80%{opacity:.95}100%{opacity:0}}
